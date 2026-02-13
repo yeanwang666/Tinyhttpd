@@ -1,0 +1,18 @@
+<HTML>
+<HEAD><TITLE>Kernel Test</TITLE></HEAD>
+<BODY>
+<H1>Tinyhttpd on Custom Kernel</H1>
+<P>If you can see this page, your kernel's networking stack is working!</P>
+<H2>Kernel Features Tested:</H2>
+<UL>
+  <LI>Socket creation (socket syscall)</LI>
+  <LI>Port binding (bind syscall)</LI>
+  <LI>TCP listening (listen syscall)</LI>
+  <LI>Connection acceptance (accept syscall)</LI>
+  <LI>Thread creation (clone syscall)</LI>
+  <LI>File I/O (open/read/write)</LI>
+  <LI>Process management (fork/exec for CGI)</LI>
+</UL>
+<P><B>Test Time:</B> $(date)</P>
+</BODY>
+</HTML>
